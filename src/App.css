@@ -1,0 +1,30 @@
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+
+}
+ul li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+ul li div {
+  width:33.33%;
+  padding:20px 10px;
+  box-sizing: border-box;
+}
+li img{
+  height: 100px;
+  width:100px;
+}
+.searchParent{
+  text-align: center;
+  margin-bottom: 40px;
+}
+input[type="text"]{
+  padding:20px;
+  box-sizing: border-box;
+  width: 500px;
+  margin:0 aut0 50px
+}
